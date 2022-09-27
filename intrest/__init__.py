@@ -1,1 +1,1 @@
-from simple_intrest import SimpleIntrest
+from .simple_intrest import SimpleIntrest
