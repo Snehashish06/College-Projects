@@ -9,12 +9,12 @@ from ast import literal_eval as Eve
 class SimpleIntrest:
 
     def __init__(self):
-        self.__input()
         self.Principal=""
         self.Time=""
         self.Rate=""
         self.m_d_y=""
         self.answer="Unable to calculate"
+        self.__input()
 
     def __str__(self):
         return self.answer
