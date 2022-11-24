@@ -11,7 +11,11 @@ def class_Xi_D(bool, *args, **kwargs) -> str:
         i.append(x)
     all_info = [class_, f"{i[-1]}", f"{stream}", class_teacher]
     all_info.extend(class_captain)
-    str = f"We are the students of class: {all_info[0]}, our class teacher is: {all_info[3]}, strength of our class is: {all_info[1]}, we are {all_info[2]} students, our class captains are: {all_info[4]}, {all_info[5]}..."
+    str = f"""We are the students of class: {all_info[0]},
+              our class teacher is: {all_info[3]},
+              strength of our class is: {all_info[1]},
+              we are {all_info[2]} students, 
+              our class captains are: {all_info[4]}, {all_info[5]}..."
     return str
 
 print(f"{class_Xi_D(True)}\n\n{__doc__}")
