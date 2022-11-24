@@ -17,5 +17,4 @@ def class_Xi_D(bool, *args, **kwargs) -> str:
               we are {all_info[2]} students, 
               our class captains are: {all_info[4]}, {all_info[5]}..."
     return str
-
 print(f"{class_Xi_D(True)}\n\n{__doc__}")
