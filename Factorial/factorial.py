@@ -24,4 +24,5 @@ class Factorial:
         __import__('sys').stdout.write(*args, *kwargs)
 
 
-Factorial.siso(Factorial().call_both(3)) # call class instance and print the value
+if __name__ == "__main__":
+    Factorial.siso(Factorial().call_both(3)) # call class instance and print the value
