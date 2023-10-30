@@ -1,4 +1,5 @@
 import re
+import os
 
 from time import sleep
 from datetime import datetime
@@ -11,7 +12,15 @@ from .Color.color_class import color
 from .database.main_db import update, get
 from .CoderX.CoderX import xD1, xDD
 
-clear()
+
+def initial_work(CoderX: bool = False):
+    if CoderX!=True:
+        exit("\033[31;1mAccess denied!\033[0m")
+    clear()
+    os.system("title Hui HUi It was coded by Snehashish (CoderX)")
+    os.system("color 3")
+initial_work(1)
+
 name = input("What is your name?: ")
 class Main:
 
@@ -65,4 +74,4 @@ class Main:
         self.__input()
 
 while True:
-    Main()
+        Main()

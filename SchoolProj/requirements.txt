@@ -1,1 +1,4 @@
+pygame
+loguru
 colorama
+mysql-connector
