@@ -31,7 +31,6 @@ class Main:
         formatted_date = f"{d[-1]}-{d[-2]}-{d[-3]}"
         formatted_time = re.sub("\.......$", "", tdt[1])
         clear()
-        clear()
         print(xD1, xDD)
         print(f"\n\033[35m\033[1mHello {name}! How are you?\n\033[32m  ]> Date today: {formatted_date}\n  \033[21m ]> Current time: {formatted_time}\033[0m")
         try:
