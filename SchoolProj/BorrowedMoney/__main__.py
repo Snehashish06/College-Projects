@@ -6,8 +6,8 @@ from datetime import datetime
 
 from . import LOGGER
 from .clear_screen import clear
-from .Animation.animation import l_l
-from .database.if_initial import h_h
+#from .Animation.animation import l_l
+#from .database.if_initial import h_h
 from .Color.color_class import color
 from .database.main_db import update, get
 from .CoderX.CoderX import xD1, xDD
