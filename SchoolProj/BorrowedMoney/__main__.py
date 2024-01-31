@@ -22,7 +22,7 @@ class Main:
         print(xD1, xDD)
         print(f"\n\033[35m\033[1mHello {name}! How are you?\n\033[32m  ]> Date today: {formatted_date}\n  \033[21m ]> Current time: {formatted_time}\033[0m")
         try:
-            what_to = int(input(f"\n\033[1;4mᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ\033[0m:\n\t{color.color(color.BLACK, '[0]: Exit')}\n\t{color.color(color.RED, '[1]: Add new borrower')}\n\t{color.color(color.GREEN, '[2]: Delete borrower')}\n\t{color.color(color.BLUE, '[3]: Get all borrowers')}\n\n\033[1;96m ]> 𝐘𝐨𝐮𝐫 𝐒𝐞𝐥𝐞𝐜𝐭𝐢𝐨𝐧 : \033[0m"))
+            what_to = int(input(f"\n\033[1;4mChoose an option\033[0m:\n\t{color.color(color.BLACK, '[0]: Exit')}\n\t{color.color(color.RED, '[1]: Add new borrower')}\n\t{color.color(color.GREEN, '[2]: Delete borrower')}\n\t{color.color(color.BLUE, '[3]: Get all borrowers')}\n\n\033[1;96m ]> 𝐘𝐨𝐮𝐫 𝐒𝐞𝐥𝐞𝐜𝐭𝐢𝐨𝐧 : \033[0m"))
         except ValueError:
             LOGGER.error("Kindly enter a valid number.")
             sleep(2)
