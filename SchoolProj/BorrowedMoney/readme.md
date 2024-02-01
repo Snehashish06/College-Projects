@@ -1,7 +1,7 @@
 # This is our IP group project
 
 ```python
-print("""We, Snehashish Biswas, Avijeet Sukla Baidya, and Arin Patel from class XII B, ✨
+print("""We, Snehashish Biswas and Avijeet Sukla Baidya from class XII B, ✨
 have crafted this project with a friendly intention. 🤗
 Our aim is to assist you in effortlessly keeping track of money borrowers. ⭐""")
 ```
