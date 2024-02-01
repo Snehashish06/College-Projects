@@ -2,7 +2,8 @@
 
 ```python
 print("""We, Snehashish Biswas,
-Avijeet Sukla Baidya and Sarban Tamang from class XII B, ✨
+Avijeet Sukla Baidya
+and Sarban Tamang from class XII B, ✨
 have crafted this project with a friendly intention. 🤗
 Our aim is to assist you in effortlessly keeping track of money borrowers. ⭐""")
 ```
